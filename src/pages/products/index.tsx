@@ -4,12 +4,11 @@ import {
   DashboardLayout,
   DashboardTitle,
 } from "@/components/layouts/DashboardLayout";
-import type { NextPageWithLayout } from "../_app";
-import type { ReactElement } from "react";
+import { ProductCatalogCard } from "@/components/shared/product/ProductCatalogCard";
 import { Button } from "@/components/ui/button";
 import { PRODUCTS } from "@/data/mock";
-import { ProductMenuCard } from "@/components/shared/product/ProductMenuCard";
-import { ProductCatalogCard } from "@/components/shared/product/ProductCatalogCard";
+import type { ReactElement } from "react";
+import type { NextPageWithLayout } from "../_app";
 
 const ProductsPage: NextPageWithLayout = () => {
   return (

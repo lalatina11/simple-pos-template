@@ -10,7 +10,7 @@ export default function Home() {
     if (isSignedIn && isLoaded) {
       void router.replace("/dashboard");
     }
-  }, [isSignedIn, isLoaded]);
+  }, [isSignedIn, isLoaded, router]);
 
   return (
     <div className="flex h-screen w-screen items-center justify-center">
